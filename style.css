@@ -1,0 +1,20 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(245, 212, 255);
+}
+
+.nacionalidade {
+    text-decoration: underline;
+}
+
+.destaques {
+    font-size: 20px;
+    font-weight: 600;
+}
