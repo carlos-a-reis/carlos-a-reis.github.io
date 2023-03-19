@@ -6,6 +6,12 @@ function Home() {
   return(
     <main>
       <Header />
+      <section>
+        <div>
+          <h1>CARLOS AUGUSTO</h1>
+          <h6>DESENVOLVEDOR FULL STACK JUNIOR</h6>
+        </div>
+      </section>
       <Footer />
     </main>
   );
