@@ -10,10 +10,6 @@ export const Footer = styled.footer`
   height: 58px;
   background-color: #301E67;
 
-  @media (min-width: 760px) {
-
-  }
-
   @media (min-width: 1440px) {
     height: 78px;
   }
