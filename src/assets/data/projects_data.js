@@ -25,4 +25,86 @@ export default {
       link: 'project1',
     },
   ],
+  skills: [
+    {
+      name: 'React Testing Library',
+      icon: 'http://source.unsplash.com/random/50x50/?technology',
+      link: 'skils',
+    },
+    {
+      name: 'skils1',
+      icon: 'http://source.unsplash.com/random/50x50/?natureza',
+      link: 'skils',
+    },
+    {
+      name: 'skils2',
+      icon: 'http://source.unsplash.com/random/50x50/?experimental',
+      link: 'skils',
+    },
+    {
+      name: 'skils3',
+      icon: 'http://source.unsplash.com/random/50x50/?sky',
+      link: 'skils',
+    },
+    {
+      name: 'skils',
+      icon: 'http://source.unsplash.com/random/50x50/?technology',
+      link: 'skils',
+    },
+    {
+      name: 'skils1',
+      icon: 'http://source.unsplash.com/random/50x50/?natureza',
+      link: 'skils',
+    },
+    {
+      name: 'skils2',
+      icon: 'http://source.unsplash.com/random/50x50/?experimental',
+      link: 'skils',
+    },
+    {
+      name: 'skils3',
+      icon: 'http://source.unsplash.com/random/50x50/?sky',
+      link: 'skils',
+    },
+    {
+      name: 'skils',
+      icon: 'http://source.unsplash.com/random/50x50/?technology',
+      link: 'skils',
+    },
+    {
+      name: 'skils1',
+      icon: 'http://source.unsplash.com/random/50x50/?natureza',
+      link: 'skils',
+    },
+    {
+      name: 'skils2',
+      icon: 'http://source.unsplash.com/random/50x50/?experimental',
+      link: 'skils',
+    },
+    {
+      name: 'skils3',
+      icon: 'http://source.unsplash.com/random/50x50/?sky',
+      link: 'skils',
+    },
+    {
+      name: 'skils',
+      icon: 'http://source.unsplash.com/random/50x50/?technology',
+      link: 'skils',
+    },
+    {
+      name: 'skils1',
+      icon: 'http://source.unsplash.com/random/50x50/?natureza',
+      link: 'skils',
+    },
+    {
+      name: 'skils2',
+      icon: 'http://source.unsplash.com/random/50x50/?experimental',
+      link: 'skils',
+    },
+    {
+      name: 'skils3',
+      icon: 'http://source.unsplash.com/random/50x50/?sky',
+      link: 'skils',
+    },
+  ],
 };

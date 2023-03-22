@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import * as S from './styles';
 
 function SkillCard(props) {
   return (
-    <li>
+    <S.Li>
       <a href={props.link} target='_blank' rel='noopener noreferrer'>
-        <img src={props.icon} />
+        <S.Image src={props.icon} />
       </a>
-      <p>{props.name}</p>
-    </li>
+      <S.SkillName>{props.name}</S.SkillName>
+    </S.Li>
   );
 }
 
