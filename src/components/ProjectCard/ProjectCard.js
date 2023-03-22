@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import * as S from './styles';
 
 function ProjectCard(props) {
   return (
-    <article>
-      <h1>{props.name}</h1>
+    <S.Article>
+      <S.ProjectName>{props.name}</S.ProjectName>
       <a href={props.link} target='_blank' rel='noopener noreferrer'>
-        <img src={props.image} />
+        <S.Image src={props.image} />
       </a>
-      <p>{props.description}</p>
-    </article>
+      <S.Description>{props.description}</S.Description>
+    </S.Article>
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import About from './pages/About';
 import Home from './pages/Home/Home';
-import Projects from './pages/Projects';
+import Projects from './pages/Projects/Projects';
 import Skills from './pages/Skills';
 
 function App() {
