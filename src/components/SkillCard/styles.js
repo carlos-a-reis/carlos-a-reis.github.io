@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const Li = styled.li`
+export const Skill = styled.a`
+  text-decoration: none;
+  color: inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

@@ -4,12 +4,12 @@ import * as S from './styles';
 
 function SkillCard(props) {
   return (
-    <S.Li>
-      <a href={props.link} target='_blank' rel='noopener noreferrer'>
-        <S.Image src={props.icon} />
-      </a>
-      <S.SkillName>{props.name}</S.SkillName>
-    </S.Li>
+    <li>
+      <S.Skill href={props.link} target='_blank' rel='noopener noreferrer'>
+        <S.Image src={props.icon} alt={`${props.name} icone`} />
+        <S.SkillName>{props.name}</S.SkillName>
+      </S.Skill>
+    </li>
   );
 }
 

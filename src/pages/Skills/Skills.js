@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import SkillCard from '../../components/SkillCard/SkillCard';
-import data from '../../assets/data/projects_data';
+import data from '../../assets/data/data';
 import * as S from './styles';
 
 function Skills() {

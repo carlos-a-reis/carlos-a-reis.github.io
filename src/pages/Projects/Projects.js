@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
-import data from '../../assets/data/projects_data';
+import data from '../../assets/data/data';
 import * as S from './styles';
 
 function Projects() {
