@@ -60,6 +60,11 @@ export const IL = styled.i`
   font-size: 42px;
   font-weight: 700;
   text-align: end;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.3);
+  }
 
   @media (min-width: 760px) {
     margin-left: 32px;
@@ -79,6 +84,11 @@ export const IR = styled.i`
   font-size: 42px;
   font-weight: 700;
   text-align: end;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.3);
+  }
 
   @media (min-width: 760px) {
     margin-right: 20px;

@@ -33,36 +33,36 @@ function Header() {
       <S.Nav style={{ display: navVisibility, height: navHeight }}>
         <S.Ul>
           <S.Li>
-            <S.Span
+            <S.Page
               active={pathname === '/' ? 'active' : ''}
               onClick={() => navigate('/')}
             >
               HOME
-            </S.Span>
+            </S.Page>
           </S.Li>
           <S.Li>
-            <S.Span
+            <S.Page
               active={pathname === '/projetos' ? 'active' : ''}
               onClick={() => navigate('/projetos')}
             >
               PROJETOS
-            </S.Span>
+            </S.Page>
           </S.Li>
           <S.Li>
-            <S.Span
+            <S.Page
               active={pathname === '/skills' ? 'active' : ''}
               onClick={() => navigate('/skills')}
             >
               SKILLS
-            </S.Span>
+            </S.Page>
           </S.Li>
           <S.LiWithoutBorder>
-            <S.Span
+            <S.Page
               active={pathname === '/sobre' ? 'active' : ''}
               onClick={() => navigate('/sobre')}
             >
               SOBRE
-            </S.Span>
+            </S.Page>
           </S.LiWithoutBorder>
         </S.Ul>
       </S.Nav>

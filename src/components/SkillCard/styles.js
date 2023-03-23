@@ -8,6 +8,10 @@ export const Li = styled.li`
   width: 185px;
   height: 125px;
 
+  &:hover {
+    transform: scale(1.1);
+  }
+
   @media (min-width: 760px) {
     width: 250px;
     height: 180px;

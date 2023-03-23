@@ -7,7 +7,7 @@ export const Header = styled.header`
   flex-direction: column;
   width: 100%;
   min-height: 58px;
-  background-color: #301E67;
+  background-color: #301e67;
 
   @media (min-width: 760px) {
     height: 75px;
@@ -20,7 +20,7 @@ export const Header = styled.header`
 
 export const I = styled.i`
   display: flex;
-  color: #5B8FB9;
+  color: #5b8fb9;
   font-size: 38px;
   width: 38px;
   justify-self: center;
@@ -36,7 +36,7 @@ export const I = styled.i`
 export const Nav = styled.nav`
   margin-left: 20px;
   margin-right: 20px;
-  transition: .6s;
+  transition: 0.6s;
   overflow-y: hidden;
 
   @media (min-width: 760px) {
@@ -71,14 +71,14 @@ export const Ul = styled.ul`
 export const Li = styled.li`
   width: 100%;
   padding-bottom: 12px;
-  border-bottom: solid #03001C 1px;
+  border-bottom: solid #03001c 1px;
 
   @media (min-width: 760px) {
     flex: 1;
     text-align: center;
     border-bottom: none;
     padding-bottom: 0px;
-    border-right: solid #03001C 2px;
+    border-right: solid #03001c 2px;
   }
 
   @media (min-width: 1440px) {
@@ -100,12 +100,18 @@ export const LiWithoutBorder = styled.li`
   }
 `;
 
-export const Span = styled.span`
-  color: ${({ active }) => active ? '#5B8FB9' : '#B6EADA'};
-  font-size: ${({ active }) => active ? '26px' : '20px'};
+export const Page = styled.p`
+  color: ${({ active }) => (active ? '#5B8FB9' : '#B6EADA')};
+  font-size: ${({ active }) => (active ? '26px' : '20px')};
   font-weight: 700;
+  cursor: pointer;
+
+  &:hover {
+    transform: ${({ active }) => (active ? '' : 'scale(1.2)')};
+    color: ${({ active }) => (active ? '' : '#5B8FB9')};
+  }
 
   @media (min-width: 1440px) {
-    font-size: ${({ active }) => active ? '32px' : '24px'};
+    font-size: ${({ active }) => (active ? '32px' : '24px')};
   }
 `;
