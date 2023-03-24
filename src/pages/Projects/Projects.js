@@ -52,22 +52,15 @@ function Projects() {
             />
           ))}
         </S.Projects>
-        <S.Div>
-          <button
-            type='button'
-            onClick={(event) => slideButton(event, 'left')}
-          >
-            <S.IL className='material-symbols-rounded'>{'arrow_back_ios'}</S.IL>
-          </button>
-          <button
-            type='button'
-            onClick={(event) => slideButton(event, 'right')}
-          >
-            <S.IR className='material-symbols-rounded'>
-              {'arrow_forward_ios'}
-            </S.IR>
-          </button>
-        </S.Div>
+
+        <button type='button' onClick={(event) => slideButton(event, 'left')}>
+          <S.IL className='material-symbols-rounded'>{'arrow_back_ios'}</S.IL>
+        </button>
+        <button type='button' onClick={(event) => slideButton(event, 'right')}>
+          <S.IR className='material-symbols-rounded'>
+            {'arrow_forward_ios'}
+          </S.IR>
+        </button>
       </S.Section>
       <Footer />
     </S.Main>

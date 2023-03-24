@@ -25,28 +25,88 @@ import typescript from '../icons/typescript.svg';
 export default {
   projects: [
     {
-      name: 'project',
+      name: 'Star Wars Planets Search',
       image: 'http://source.unsplash.com/random/310x310/?beach',
-      description: 'project',
-      link: 'project',
+      description:
+        '"Star Wars Planets Search" - Aplicação Frontend que consulta uma API externa para exibir informações sobre planetas do universo de Star Wars.',
+      link: 'https://github.com/carlos-a-reis/starwars-planets-search',
     },
     {
-      name: 'project1',
+      name: 'Solar System',
       image: 'http://source.unsplash.com/random/310x310/?programming',
-      description: 'project1',
-      link: 'project1',
+      description:
+        '"Solar System" - Um projeto que exibe os planetas do sistema solar e diversas missões espaciais que ocorreram ao longo da história.',
+      link: 'https://github.com/carlos-a-reis/solar-system',
     },
     {
-      name: 'project1',
+      name: 'To Do List',
       image: 'http://source.unsplash.com/random/310x310/?animal',
-      description: 'project1',
-      link: 'project1',
+      description:
+        '"To Do List" - Este projeto é uma lista de tarefas responsiva e personalizável. O usuário pode adicionar, editar, excluir e marcar tarefas como concluídas, com mudança de posição e modos de exibição.',
+      link: 'https://github.com/carlos-a-reis/to-do-list',
     },
     {
-      name: 'project1',
+      name: 'Zoo Functions',
       image: 'http://source.unsplash.com/random/310x310/?games',
-      description: 'project1',
-      link: 'project1',
+      description:
+        '"Zoo Functions" - É um projeto que simula um sistema de gestão de zoológico com um conjunto de funções para a prática de conceitos avançados de JavaScript, como high order functions, template literals, array destructuring e default params.',
+      link: 'https://github.com/carlos-a-reis/zoo-functions',
+    },
+    {
+      name: 'JavaScript Unit Tests',
+      image: 'http://source.unsplash.com/random/310x310/?games',
+      description:
+        '"JavaScript Unit Tests" - É um projeto composto por desafios para a prática do TDD (Test Driven Development) com uso da biblioteca Jest em JavaScript.',
+      link: 'https://github.com/carlos-a-reis/js-unit-tests',
+    },
+    {
+      name: 'Amazon Clone Tailwind',
+      image: 'http://source.unsplash.com/random/310x310/?games',
+      description:
+        'Este repositório é uma replicação de uma página web da Amazon feita com o intuito de praticar conhecimentos em TailwindCSS.',
+      link: 'https://github.com/carlos-a-reis/amazon-clone-tailwind',
+    },
+    {
+      name: 'Facebook Clone Tailwind',
+      image: 'http://source.unsplash.com/random/310x310/?games',
+      description:
+        'Este repositório é uma replicação de uma página web do FaceBook feita com o intuito de praticar conhecimentos em TailwindCSS.',
+      link: 'https://github.com/carlos-a-reis/facebook-clone-tailwind',
+    },
+    {
+      name: 'Spotify Clone Tailwind',
+      image: 'http://source.unsplash.com/random/310x310/?games',
+      description:
+        'Este repositório é uma replicação de uma página web do Spotify feita com o intuito de praticar conhecimentos em TailwindCSS.',
+      link: 'https://github.com/carlos-a-reis/spotify-clone-tailwind',
+    },
+    {
+      name: 'Car Shop',
+      image: 'http://source.unsplash.com/random/310x310/?games',
+      description:
+        '"Car Shop" - Um projeto que consiste em um backend que manipula um banco de dados MongoDB com informações de uma simulação de loja de carros.',
+      link: 'https://github.com/carlos-a-reis/car-shop',
+    },
+    {
+      name: 'MongoDB Commerce',
+      image: 'http://source.unsplash.com/random/310x310/?games',
+      description:
+        '"MongoDB Commerce" - Este projeto é uma prática de conceitos de manipulação de bancos de dado do tipo MongoDB através de desafios de criação de queries de consulta, inserção, atualização e deleção de dados.',
+      link: 'https://github.com/carlos-a-reis/mongodb-commerce',
+    },
+    {
+      name: 'Trybesmith',
+      image: 'http://source.unsplash.com/random/310x310/?games',
+      description:
+        '"Trybesmith" - Um projeto backend que simula uma loja de RPG medieval, com um inventário que contém vários tipos de itens, desde espadas e machados até artigos mágicos. A loja permite a inserção de novos itens, clientes e pedidos, tudo armazenado em um banco de dados MySQL.',
+      link: 'https://github.com/carlos-a-reis/Trybesmith',
+    },
+    {
+      name: 'Trybe Futebol Clube',
+      image: 'http://source.unsplash.com/random/310x310/?games',
+      description:
+        '"Trybe Futebol Clube" - Uma aplicação full-stack voltada para o futebol brasileiro na qual os usuários podem fazer requisições CRUD para interagir com placares de jogos e visualizar tabelas de classificação.',
+      link: 'https://github.com/carlos-a-reis/trybe-futebol-clube',
     },
   ],
   skills: [

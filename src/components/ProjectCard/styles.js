@@ -42,6 +42,8 @@ export const ProjectName = styled.h1`
     font-size: 40px;
     margin-left: 60px;
     text-align: start;
+    height: 80px;
+    width: 512px;
   }
 
   @media (min-width: 760px) and (max-height: 732px) {
@@ -49,7 +51,7 @@ export const ProjectName = styled.h1`
     font-size: 32px;
     margin-left: 60px;
     text-align: start;
-    width: 250px;
+    width: 300px;
   }
 `;
 
@@ -59,7 +61,7 @@ export const Image = styled.img`
   border-radius: 20px;
 
   @media (min-width: 760px) {
-    margin-top: 00px;
+    margin-top: 40px;
     height: 444px;
     width: 444px;
   }
@@ -72,6 +74,7 @@ export const Image = styled.img`
   }
 
   @media (min-width: 760px) and (max-height: 732px) {
+    margin-top: 0;
     height: 310px;
     width: 310px;
   }
@@ -81,10 +84,12 @@ export const Description = styled.p`
   height: 130px;
   width: 310px;
   padding-top: 40px;
-  font-size: 20px;
+  font-size: 19px;
   text-align: center;
 
   @media (min-width: 760px) {
+    height: 300px;
+    width: 444px;
     font-size: 32px;
   }
 
@@ -93,7 +98,9 @@ export const Description = styled.p`
     font-size: 32px;
     margin-left: 60px;
     text-align: start;
-    padding-top: 119px;
+    padding-top: 70px;
+    width: 512px;
+    height: 310px;
   }
 
   @media (min-width: 760px) and (max-height: 732px) {
@@ -101,7 +108,8 @@ export const Description = styled.p`
     font-size: 24px;
     margin-left: 60px;
     text-align: start;
-    padding-top: 30px;
-    width: 250px;
+    padding-top: 10px;
+    width: 300px;
+    height: 210px;
   }
 `;

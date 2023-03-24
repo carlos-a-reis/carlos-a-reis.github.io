@@ -45,17 +45,12 @@ export const Div = styled.div`
   display: flex;
   justify-content: space-around;
   margin-bottom: 25px;
-
-  @media (min-width: 760px) {
-    position: fixed;
-    top: 47%;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 0;
-  }
 `;
 
 export const IL = styled.i`
+  position: fixed;
+  bottom: 80px;
+  left: 90px;
   color: #b6eada;
   font-size: 42px;
   font-weight: 700;
@@ -67,8 +62,12 @@ export const IL = styled.i`
   }
 
   @media (min-width: 760px) {
+    bottom: 0;
+    top: 47%;
+    left: 0;
     margin-left: 32px;
     width: 24px;
+    height: 60px;
     font-size: 62px;
   }
 
@@ -80,6 +79,9 @@ export const IL = styled.i`
 `;
 
 export const IR = styled.i`
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
   color: #b6eada;
   font-size: 42px;
   font-weight: 700;
@@ -91,6 +93,10 @@ export const IR = styled.i`
   }
 
   @media (min-width: 760px) {
+    bottom: 0;
+    top: 47%;
+    right: 0;
+    height: 60px;
     margin-right: 20px;
     font-size: 62px;
   }
