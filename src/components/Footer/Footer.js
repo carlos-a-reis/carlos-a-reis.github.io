@@ -15,7 +15,7 @@ function Footer() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <S.Img src={linkedinIcon} />
+            <S.Img src={linkedinIcon} alt='Icone do LinkedIn' />
           </a>
         </li>
         <li>
@@ -24,7 +24,7 @@ function Footer() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <S.Img src={gmailIcon} />
+            <S.Img src={gmailIcon} alt='Icone do Gmail' />
           </a>
         </li>
         <li>
@@ -33,7 +33,7 @@ function Footer() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <S.Img src={githubIcon} />
+            <S.Img src={githubIcon} alt='Icone do GitHub' />
           </a>
         </li>
         <li>
@@ -42,7 +42,7 @@ function Footer() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <S.Img src={whatsappIcon} />
+            <S.Img src={whatsappIcon} alt='Icone do Whatsapp' />
           </a>
         </li>
       </S.Contacts>

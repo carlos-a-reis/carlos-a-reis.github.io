@@ -7,7 +7,7 @@ function ProjectCard(props) {
     <S.Article>
       <S.ProjectName>{props.name}</S.ProjectName>
       <a href={props.link} target='_blank' rel='noopener noreferrer'>
-        <S.Image src={props.image} />
+        <S.Image src={props.image} alt={`Imagem do projeto ${props.name}`} />
       </a>
       <S.Description>{props.description}</S.Description>
     </S.Article>

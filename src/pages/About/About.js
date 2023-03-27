@@ -8,7 +8,7 @@ function About() {
     <S.Main>
       <Header />
       <S.Section>
-        <S.Image src='http://source.unsplash.com/random/500x500/?building' />
+        <S.Image src='http://source.unsplash.com/random/500x500/?programmer' alt='Foto do Carlos Augusto' />
         <S.Div>
           <S.Paragraph>
             Sou um programador full stack junior com formação em Desenvolvimento
