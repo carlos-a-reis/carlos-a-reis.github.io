@@ -2,11 +2,12 @@ import styled from 'styled-components';
 import background from '../../assets/images/background.jpg';
 
 export const Main = styled.main`
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  background-color: #03001C;
+  background-color: #03001c;
 `;
 
 export const BackGround = styled.div`
