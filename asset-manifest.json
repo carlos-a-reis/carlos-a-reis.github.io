@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b60281df.css",
-    "main.js": "/static/js/main.ca7e7296.js",
+    "main.js": "/static/js/main.76aa8166.js",
     "static/media/background.jpg": "/static/media/background.dd7a5e1de28a876e823a.jpg",
     "static/media/zoofunctions.jpg": "/static/media/zoofunctions.3c056397cf9e9c60e289.jpg",
     "static/media/solarsystem.jpg": "/static/media/solarsystem.f4533a26f93aa26ab28a.jpg",
@@ -44,10 +44,10 @@
     "static/media/css3.svg": "/static/media/css3.b3a5dd98c0149232471e5ee2ffc14972.svg",
     "static/media/html5.svg": "/static/media/html5.3b27ad570de893a5fc23f1ab7c136601.svg",
     "main.b60281df.css.map": "/static/css/main.b60281df.css.map",
-    "main.ca7e7296.js.map": "/static/js/main.ca7e7296.js.map"
+    "main.76aa8166.js.map": "/static/js/main.76aa8166.js.map"
   },
   "entrypoints": [
     "static/css/main.b60281df.css",
-    "static/js/main.ca7e7296.js"
+    "static/js/main.76aa8166.js"
   ]
 }
