@@ -20,8 +20,8 @@ export const Skill = styled.a`
   }
 
   @media (min-width: 1440px) {
-    width: 260px;
-    height: 200px;
+    width: 230px;
+    height: 170px;
   }
 `;
 
@@ -30,8 +30,8 @@ export const Image = styled.img`
   height: 60px;
 
   @media (min-width: 760px) {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
   }
 `;
 
@@ -42,7 +42,7 @@ export const SkillName = styled.p`
   width: 170px;
 
   @media (min-width: 760px) {
-    font-size: 28px;
+    font-size: 27px;
     width: 250px;
     height: 60px;
   }
