@@ -24,9 +24,9 @@ export const Section = styled.section`
 `;
 
 export const Image = styled.img`
-  height: 217px;
-  width: 217px;
-  border-radius: 25px;
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
   margin-bottom: 40px;
 
   @media (min-width: 760px) {

@@ -13,15 +13,20 @@ export const Main = styled.main`
 export const BackGround = styled.div`
   position: fixed;
   z-index: 0;
-  height: calc(100% - 116px);
+  height: 100%;
   width: 100%;
   background-image: url(${background});
   background-size: cover;
-  background-position-x: -300px;
+  background-position-x: 1000px;
   opacity: 0.2;
 
+  @media (min-width: 1440px) {
+    background-position-y: 50px;
+    background-position-x: 0px;
+  }
+
   @media (min-width: 1900px) {
-    background-position-y: -250px;
+    background-position-y: -180px;
     background-position-x: 0px;
   }
 `;

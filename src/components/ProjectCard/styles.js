@@ -56,8 +56,8 @@ export const ProjectName = styled.h1`
 `;
 
 export const Image = styled.img`
-  height: 310px;
-  width: 310px;
+  height: 290px;
+  width: 290px;
   border-radius: 20px;
 
   @media (min-width: 760px) {
