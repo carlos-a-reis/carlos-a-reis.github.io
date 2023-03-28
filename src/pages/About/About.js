@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
+import foto from '../../assets/images/foto.jpeg';
 import * as S from './styles';
 
 function About() {
@@ -8,7 +9,7 @@ function About() {
     <S.Main>
       <Header />
       <S.Section>
-        <S.Image src='http://source.unsplash.com/random/500x500/?programmer' alt='Foto do Carlos Augusto' />
+        <S.Image src={foto} alt='Foto do Carlos Augusto' />
         <S.Div>
           <S.Paragraph>
             Sou um programador full stack junior com formação em Desenvolvimento

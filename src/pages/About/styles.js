@@ -65,7 +65,7 @@ export const Paragraph = styled.p`
 
   @media (min-width: 1440px) {
     text-align: start;
-    font-size: 20px;
+    font-size: 21px;
     margin-left: 80px;
   }
 
