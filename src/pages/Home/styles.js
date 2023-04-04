@@ -86,3 +86,42 @@ export const H6 = styled.h6`
     text-align: left;
   }
 `;
+
+export const Download = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #b6eada;
+  width: 227px;
+  height: 63px;
+  background-color: #301e67;
+  border-radius: 8px;
+  margin-top: 180px;
+
+  &:hover {
+    transform: scale(1.1);
+    opacity: 90%;
+  }
+
+  @media (min-width: 760px) {
+    width: 291px;
+    height: 81px;
+    margin-top: 250px;
+  }
+
+  @media (min-width: 760px) and (max-height: 732px) {
+    width: 227px;
+    height: 63px;
+    margin-top: 80px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 341px;
+    height: 95px;
+    margin-top: 100px;
+    margin-left: 81px;
+  }
+`;
