@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b60281df.css",
-    "main.js": "/static/js/main.aef39af4.js",
+    "main.js": "/static/js/main.8acdddab.js",
     "static/media/background.jpg": "/static/media/background.dd7a5e1de28a876e823a.jpg",
     "static/media/zoofunctions.jpg": "/static/media/zoofunctions.3c056397cf9e9c60e289.jpg",
     "static/media/solarsystem.jpg": "/static/media/solarsystem.f4533a26f93aa26ab28a.jpg",
@@ -16,6 +16,7 @@
     "static/media/spotifyclone.jpg": "/static/media/spotifyclone.c6919167069ed4df7b16.jpg",
     "static/media/commerce.jpg": "/static/media/commerce.874104445018bc26a33d.jpg",
     "static/media/foto.jpeg": "/static/media/foto.e658c92b91bb0169347c.jpeg",
+    "static/media/curriculo.pdf": "/static/media/curriculo.08cf33b25c0a5395973c.pdf",
     "static/media/testinglibrary.svg": "/static/media/testinglibrary.b958f37c26aa7be394230678fc677d98.svg",
     "static/media/mysql.svg": "/static/media/mysql.4c8f834786c93309a07538d4854f9168.svg",
     "static/media/react.svg": "/static/media/react.edb7bc7b68c93712593b27a16f73731d.svg",
@@ -44,10 +45,10 @@
     "static/media/css3.svg": "/static/media/css3.b3a5dd98c0149232471e5ee2ffc14972.svg",
     "static/media/html5.svg": "/static/media/html5.3b27ad570de893a5fc23f1ab7c136601.svg",
     "main.b60281df.css.map": "/static/css/main.b60281df.css.map",
-    "main.aef39af4.js.map": "/static/js/main.aef39af4.js.map"
+    "main.8acdddab.js.map": "/static/js/main.8acdddab.js.map"
   },
   "entrypoints": [
     "static/css/main.b60281df.css",
-    "static/js/main.aef39af4.js"
+    "static/js/main.8acdddab.js"
   ]
 }
