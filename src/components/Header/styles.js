@@ -4,6 +4,7 @@ export const Header = styled.header`
   position: absolute;
   top: 0;
   display: flex;
+  z-index: 2;
   flex-direction: column;
   width: 100%;
   min-height: 58px;
